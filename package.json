@@ -1,0 +1,31 @@
+{
+  "name": "WhackTheMole",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "react": "16.4.1",
+    "react-native": "0.55.4",
+    "react-native-exit-app": "^1.0.0",
+    "react-native-linear-gradient": "^2.4.2",
+    "react-navigation": "^2.12.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.4.2",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
